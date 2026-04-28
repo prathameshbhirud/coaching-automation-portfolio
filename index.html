@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coaching Automation | Prathamesh</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #e2e8f0;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    header {
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, #38bdf8, #6366f1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    header p {
+      margin-top: 15px;
+      font-size: 1.2rem;
+      color: #cbd5f5;
+    }
+
+    .cta {
+      margin-top: 30px;
+      display: inline-block;
+      padding: 14px 28px;
+      background: linear-gradient(90deg, #6366f1, #38bdf8);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .cta:hover {
+      opacity: 0.85;
+    }
+
+    section {
+      margin-top: 80px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .subtext {
+      color: #94a3b8;
+      margin-bottom: 25px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(10px);
+      padding: 25px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .service-item {
+      padding: 20px;
+      border-radius: 10px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      transition: 0.3s;
+    }
+
+    .service-item:hover {
+      transform: translateY(-6px);
+    }
+
+    .service-item h3 {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      color: #e0f2fe;
+    }
+
+    .service-item p {
+      font-size: 0.95rem;
+      color: #cbd5f5;
+      line-height: 1.5;
+    }
+
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 80px;
+      padding: 30px 20px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      color: #94a3b8;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="container">
+  <h1>Automation for Coaching Businesses</h1>
+  <p>Streamline operations and scale efficiently with custom-built automation systems</p>
+  <a href="#contact" class="cta">Book a Consultation</a>
+</header>
+
+<section class="container">
+  <h2>About</h2>
+  <div class="card">
+    <p>
+      I'm Prathamesh, a Full Stack Web Developer and AI-enabled Software Engineer with over 
+      14+ years of experience building scalable systems.
+    </p>
+    <br/>
+    <p>
+      I design and implement automation solutions tailored for coaching businesses — 
+      helping streamline operations, reduce manual effort, and improve system reliability.
+    </p>
+  </div>
+</section>
+
+<section class="container">
+  <h2>Services</h2>
+  <div class="services">
+    <div class="service-item">Custom Workflow Automation</div>
+    <div class="service-item">WhatsApp Business API Integration</div>
+    <div class="service-item">Telegram Integration</div>
+    <div class="service-item">Process Optimization & System Design</div>
+  </div>
+</section>
+
+<section class="container">
+  <h2>How It Works</h2>
+  <div class="steps">
+    <div class="card">1. Understand your current workflow and challenges</div>
+    <div class="card">2. Design a customized automation solution</div>
+    <div class="card">3. Build, deploy, and support the system</div>
+  </div>
+</section>
+
+<!-- CASE STUDIES -->
+<section class="container">
+  <h2>Selected Engineering Work</h2>
+  <p class="subtext">Experience across automation, AI systems, and enterprise-grade tooling</p>
+
+  <div class="services">
+
+    <div class="service-item">
+      <h3>Intelligent Document Processing</h3>
+      <p>
+        Designed and deployed local LLM-based solutions for internal systems to process documents 
+        and enable contextual query handling without external dependencies.
+      </p>
+      <br/>
+      <p><strong>Impact:</strong> Improved data accessibility and reduced manual analysis effort.</p>
+    </div>
+
+    <div class="service-item">
+      <h3>Automated Report Generation Framework</h3>
+      <p>
+        Built a DevExpress-based framework using structured context and prompt engineering 
+        to dynamically generate report templates.
+      </p>
+      <br/>
+      <p><strong>Impact:</strong> Reduced manual development effort and accelerated delivery timelines.</p>
+    </div>
+
+    <div class="service-item">
+      <h3>PR Sentiment Analysis System</h3>
+      <p>
+        Developed an NLP-driven solution to analyze pull request comments and provide insights 
+        into collaboration and review patterns.
+      </p>
+      <br/>
+      <p><strong>Impact:</strong> Helped identify review bottlenecks and improve team efficiency.</p>
+    </div>
+
+    <div class="service-item">
+      <h3>Automated Release Tracking & Notes</h3>
+      <p>
+        Implementing a system to generate release notes using Confluence and JIRA data 
+        mapped to release versions.
+      </p>
+      <br/>
+      <p><strong>Impact:</strong> Improved DevOps governance and audit readiness.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="container">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: coachingautomation.prathamesh@gmail.com</p>
+    <p>WhatsApp: +91-9821727314</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Prathamesh | Coaching Automation</p>
+</footer>
+
+</body>
+</html>
